@@ -32,7 +32,7 @@ namespace _1form
                     }
                     catch
                     {
-                        result.Text += ($"y({i})=error\n");
+                        result.Text += ($"y({i:f2})=error\n");
                     }
             }
             catch (Exception)
